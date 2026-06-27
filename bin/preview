@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+cd "$(dirname "$0")/.."
+
+if ! command -v docker >/dev/null 2>&1; then
+  echo "Docker is not installed. Install Docker, or use Ruby/Jekyll with bundle exec jekyll serve --baseurl /profile."
+  exit 1
+fi
+
+if ! docker compose version >/dev/null 2>&1; then
+  echo "Docker Compose is not available. Install Docker Compose v2, then try again."
+  exit 1
+fi
+
+compose=(docker compose)
+
+if [[ "${1:-}" == "--sudo" ]]; then
+  compose=(sudo docker compose)
+elif ! docker info >/dev/null 2>&1; then
+  cat <<'EOF'
+Docker is installed, but this user cannot access the Docker daemon.
+
+Try:
+  bin/preview --sudo
+
+If you want to fix Docker permissions permanently, run:
+  sudo usermod -aG docker "$USER"
+
+Then log out and back in before trying:
+  bin/preview
+EOF
+  exit 1
+fi
+
+echo "Starting al-folio preview..."
+echo "Open http://localhost:8080/profile/ after the first build finishes."
+echo "Press Ctrl+C to stop."
+
+"${compose[@]}" up

@@ -46,6 +46,20 @@ Most optional pages are currently hidden from the navbar with `nav: false`. Set 
 Using Docker:
 
 ```bash
+bin/preview
+```
+
+Then open `http://localhost:8080/profile/`.
+
+If Docker reports a daemon socket permission error, run:
+
+```bash
+bin/preview --sudo
+```
+
+You can also run Docker directly:
+
+```bash
 docker compose pull
 docker compose up
 ```
