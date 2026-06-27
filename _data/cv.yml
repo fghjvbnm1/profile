@@ -1,19 +1,62 @@
 cv:
-  name: Jay Seo
-  label:
-  email:
-  location:
+  name: JaeHyeong Seo
+  label: M.S./Ph.D. Candidate
+  email: fghjvbnm1@snu.ac.kr
+  location: Seoul, Korea
   image: ""
-  summary: Add a short professional summary here.
+  summary: I am interested in robot vision, Vision-Language-Action models, embodied AI, and robotic manipulation.
 
   social_networks:
     - network: GitHub
       username: fghjvbnm1
+    - network: Instagram
+      username: jay_hyeong_seo
 
   sections:
-    Education: []
-    Experience: []
+    Education:
+      - institution: Yonsei University
+        location: Seoul, Korea
+        area: Electrical Engineering
+        studyType: B.S.
+        end_date: 2026-02
+
+      - institution: Seoul National University
+        location: Seoul, Korea
+        area: Mechanical Engineering
+        studyType: Integrated M.S./Ph.D.
+        start_date: 2026-03
+        end_date: present
+
+    Scholarship:
+      - label: 2024-06
+        details: Yonsei Jinri Scholarship, Yonsei University
+
+      - label: 2024-12
+        details: Yonsei Tutoring Contents Creator Scholarship, Yonsei University
+
+    Experience:
+      - company: MLCS Lab, Yonsei University
+        position: Undergraduate Intern
+        location: Seoul, Korea
+        start_date: 2025-01
+        end_date: 2025-03
+        highlights:
+          - Autonomous Driving
+
+      - company: MVP Lab, Yonsei University
+        position: Undergraduate Intern
+        location: Seoul, Korea
+        start_date: 2025-06
+        end_date: 2025-11
+        highlights:
+          - AI & Pattern Recognition
+
+      - company: RV Lab, Seoul National University
+        position: M.S./Ph.D. Candidate
+        location: Seoul, Korea
+        start_date: 2026-03
+        end_date: present
+
     Awards: []
     Publications: []
-    Skills: []
     Projects: []

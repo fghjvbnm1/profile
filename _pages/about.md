@@ -2,14 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: Personal profile
+subtitle: welcome to my personal profile page!
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: jayseo.jpg
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Update this section with your affiliation, location, or contact details.</p>
+    <p></p>
+    <p></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -25,6 +26,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome. This is an al-folio starter site configured for GitHub Pages.
+Hello! I'm **JaeHyeong Seo**, an **integrated M.S./Ph.D. student at RVLAB, Seoul National University**.
 
-Replace this text with a short bio, research interests, selected projects, or links you want visitors to see first.
+My research interests include **robot vision, Vision-Language-Action (VLA) models, embodied AI, and robotic manipulation**. I am interested in building robotic systems that can perceive, reason, and act in complex real-world environments.
+
+This website contains my research projects, publications, CV, and selected notes. For research-related inquiries, please feel free to contact me via email or DM using the links below my profile image.
+
+For a structured overview of my education and experience, see my [CV]({{ '/cv/' | relative_url }}).
