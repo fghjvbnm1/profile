@@ -1,0 +1,12 @@
+# This file contains social media links and usernames for the author.
+# jekyll-socials renders icons in the order defined here.
+
+github_username: fghjvbnm1
+rss_icon: true
+
+# Uncomment and fill these in when ready.
+# email:
+# linkedin_username:
+# scholar_userid:
+# orcid_id:
+# cv_pdf: /assets/pdf/cv.pdf

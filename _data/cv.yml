@@ -1,0 +1,19 @@
+cv:
+  name: Jay Seo
+  label:
+  email:
+  location:
+  image: ""
+  summary: Add a short professional summary here.
+
+  social_networks:
+    - network: GitHub
+      username: fghjvbnm1
+
+  sections:
+    Education: []
+    Experience: []
+    Awards: []
+    Publications: []
+    Skills: []
+    Projects: []
