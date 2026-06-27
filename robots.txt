@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://fghjvbnm1.github.io/profile/sitemap.xml
